@@ -4,6 +4,16 @@ setup = function() {
   textSize(15);
   fill(15, 0, 255);
 
+var message = "poopypants";
+var x = 0;
+var y = 40
+while (x < 400) {
+   text(message, x, y);
+   x += 80;
+   y += 80;
+}
+
+
   // a handy dandy ruler across the top
   var x = 0;
   text(x, x, 20); 
